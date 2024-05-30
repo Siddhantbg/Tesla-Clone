@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Making the body taller to allow scrolling */
+    font-family: Montserrat;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    scroll-behavior: smooth; /* Smooth scroll behavior */
+}
+
+.nav-ka-photo img {
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 45px;
+    left: 31px;
+}
+
+.nav-ka-saman {
+    display: flex;
+}
+
+.nav-ka-saman ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ka-saman ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    bottom: 111px;
+    left: 360px;
+    gap: 30px; /* Adjust the value as needed */
+    font-size: 14px;
+}
+
+.nav-ka-saman1 {
+    display: flex;
+}
+
+.nav-ka-saman1 ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ka-saman1 ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    left: 675px;
+    gap: 15px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+header {
+    position: absolute;
+    text-align: center;
+    top: 70px; /* Adjust based on the height of your nav bar */
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    /* background-color: black;
+    color: aliceblue; */
+}
+
+.scroll-container {
+    position: relative;
+    height: 9000px; 
+}
+
+.section {
+    height: 1000px;
+}
+
+#section1 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png'); }
+#section2 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg'); }
+#section3 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg'); }
+#section4 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg'); }
+#section5 { background-image: url('https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg'); }
+#section6 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop'); }
+#section7 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global'); }
+#section8 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg'); }
+#section9 { background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg'); }
+
+.section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* //////////////////*/

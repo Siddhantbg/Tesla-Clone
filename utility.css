@@ -1,0 +1,110 @@
+.inline-block{
+    display: inline-block;
+}
+
+header{
+    font-size: 48px;
+    font-family: Montserrat;
+    margin-top: 100px;
+    font-weight: 600;
+}
+#header1{
+    margin-top: 80px;
+}
+p{
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.hide-nav {
+    display: none;
+}
+#header4 , #header6{
+    color: white;
+}
+.footer{
+    height: 40vh;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+}
+.section {
+    margin-bottom: 0; /* Remove any bottom margin */
+}
+span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(208, 209, 210);
+    margin-right: 24px; /* Adjust as needed */
+    line-height: 20px;
+}
+span:last-child {
+    margin-right: 0;
+}
+
+.section1, .section2, .section3,.section4,.section5,.section6,.section7,.section8{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh; /* Ensure the section takes at least the full viewport height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.section-button {
+    position: absolute;
+    margin-bottom: 200px;
+    bottom: 20px; /* Adjust the distance from the bottom */
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #E2E3E3;
+    cursor: pointer;
+}
+
+
+.section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section img {
+    position: absolute;
+    top: -284px;
+    left: -21px;
+    width: 600px;  
+    object-fit: cover; /* Ensure image covers the entire section */
+    z-index: 0; /* Ensure image is behind content */
+}
+.bg-black btn{
+    border: 2px solid black;
+    background-color: #393C40;
+    color: white;
+}
+.bg-black:hover{
+    background-color: #393C40;
+    color: white;
+}
+
+

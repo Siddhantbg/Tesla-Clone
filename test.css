@@ -1,0 +1,254 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.nav-ka-photo img {
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 45px;
+    left: 31px;
+}
+
+.nav-ka-saman, .nav-ka-saman1 {
+    display: flex;
+}
+
+.nav-ka-saman ul, .nav-ka-saman1 ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+
+.nav-ka-saman ul {
+    left: 360px;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.nav-ka-saman1 ul {
+    left: 675px;
+    gap: 15px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+header {
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.scroll-container {
+    position: relative;
+    height: 9000px;
+}
+
+.section {
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.section-button {
+    position: absolute;
+    margin-bottom: 200px;
+    bottom: 20px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #E2E3E3;
+    cursor: pointer;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-black:hover {
+    background-color: #393C40;
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+header {
+    font-size: 48px;
+    font-family: Montserrat;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.footer {
+    height: 40vh;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(208, 209, 210);
+    margin-right: 24px;
+    line-height: 20px;
+}
+
+span:last-child {
+    margin-right: 0;
+}
+
+.hide-nav {
+    display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-ka-saman1{
+        width: 55%;
+    }
+    .nav-ka-photo img {
+        width: 70px;
+        height: 70px;
+        bottom: 20px;
+        left: 15px;
+    }
+
+    .nav-ka-saman ul {
+        left: 50px;
+        gap: 15px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .nav-ka-saman1 ul {
+        left: 200px;
+        gap: 10px;
+        bottom: 70px;
+    }
+
+    .section-button {
+        margin-bottom: 236px; 
+        /* button adjustment */
+        bottom: 10px;
+    }
+.section img{
+    top: -557px;
+    left: 1px;
+    width: 490px;
+}
+    button {
+        width: 200px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 32px;
+        margin-top: 60px;
+    }
+    .footer{
+        height: 46vh;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    .nav-ka-saman1{
+        width: 55%;
+    }
+    .nav-ka-photo img {
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .nav-ka-saman ul {
+        left: 20px;
+        gap: 10px;
+        font-size: 10px;
+        bottom: 50px;
+    }
+
+    .nav-ka-saman1 ul {
+        left: 100px;
+        gap: 5px;
+        bottom: 50px;
+    }
+    .section img{
+        top: -557px;
+        left: 1px;
+        width: 490px;
+    }
+    .section-button {
+        margin-bottom: 236px;
+                /* button adjustment */
+        bottom: 5px;
+    }
+    button {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    header {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .footer{
+        height: 46vh;
+    }
+}
